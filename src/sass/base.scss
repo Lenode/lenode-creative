@@ -9,3 +9,28 @@ a {
 img {
   max-width: 100%;
 }
+
+ul.links {
+  display: inline-block;
+
+  li {
+    display: inline-block;
+    margin-right: 3.625rem; // 58px over 16
+  }
+
+  a {
+    display: inline-block;
+    // padding: {
+    //   top: .5em;
+    //   bottom: .5em;
+    // }
+
+    // &.here {
+    //   color: $accentHover;
+    // }
+
+    // &:hover {
+    //   color: $accentHover;
+    // }
+  }
+}
