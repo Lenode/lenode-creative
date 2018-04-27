@@ -1,0 +1,8 @@
+_dist
+_stage
+.sass-cache
+.jekyll-metadata
+.jekyll
+.tmp
+node_modules
+dev/includes

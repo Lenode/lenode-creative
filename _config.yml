@@ -1,0 +1,6 @@
+baseurl: /
+source: dev
+destination: _dist
+exclude:
+  - Gemfile
+  - Gemfile.lock

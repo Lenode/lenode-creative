@@ -1,0 +1,88 @@
+// Screens: >= 1540px
+html {
+  font-size: 15.5px; // 100% of 16px
+}
+
+// Screens: 1450-1539px
+@media all and (max-width: 1539px) {
+  html {
+    font-size: 15.3px;
+  }
+}
+
+// Screens: 1360px-1449px
+@media all and (max-width: 1449px) {
+  html {
+    font-size: 15.1px;
+  }
+}
+
+// Screens: 1270px-1359px
+@media all and (max-width: 1359px) {
+  html {
+    font-size: 14.9px;
+  }
+}
+
+// Screens: 1180px-1269px
+@media all and (max-width: 1269px) {
+  html {
+    font-size: 14.7px;
+  }
+}
+
+// Screens: 961px-1179px
+@media all and (max-width: 1179px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+
+// Screens: 861px-960px
+@media all and (max-width: 960px) {
+  html {
+    font-size: 14.3px;
+  }
+}
+
+// Screens: 750px-859px
+@media all and (max-width: 859px) {
+  html {
+    font-size: 14.1px;
+  }
+}
+
+// Screens: 641px-749px
+@media all and (max-width: 749px) {
+  html {
+    font-size: 14.0px;
+  }
+}
+
+// Screens: 540px-640px
+@media all and (max-width: 640px) {
+  html {
+    font-size: 16.3px;
+  }
+}
+
+// Screens: 440px-539px
+@media all and (max-width: 539px) {
+  html {
+    font-size: 16.2px;
+  }
+}
+
+// Screens: 375px-439px
+@media all and (max-width: 439px) {
+  html {
+    font-size: 16.1px;
+  }
+}
+
+// Screens: 320px-374px
+@media all and (max-width: 374px) {
+  html {
+    font-size: 16px;
+  }
+}
