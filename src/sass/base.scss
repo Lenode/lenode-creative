@@ -15,7 +15,7 @@ ul.links {
 
   li {
     display: inline-block;
-    margin-right: 3.625rem; // 58px over 16
+    margin-right: 2.625rem; //
   }
 
   a {
@@ -34,3 +34,103 @@ ul.links {
     // }
   }
 }
+
+.main-header {
+  padding-bottom: 13.5916667%; // 140px over 1920px
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  transform: translateZ(0);
+  z-index: 10;
+
+  div.header-wrap {
+    background-color: #618685;
+    position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    z-index: 10;
+  }
+
+  div.logo {
+    margin-left: 5.4166667%; // 104px over 1920px
+    padding: {
+      top: 2%; // 66px over 1920px
+      bottom: 1.3020833%; // 30px over 1920px
+    }
+    position: absolute;
+      top: 0;
+      left: 0;
+    vertical-align: middle;
+    width: 9%; // 392 over 1920px
+
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  // a.user-menu {
+  //   vertical-align: baseline;
+  //
+  //   &:hover {
+  //     img {
+  //       @include box-shadow($accentHover);
+  //     }
+  //   }
+  // }
+
+    div.actions {
+    position: absolute;
+      top: 5%;
+      right: 5.4166667%; // 104px over 1920px
+      left: 25.8333333%; // 496 over 1920px
+      bottom: 0;
+
+    .contents {
+      margin-top: -3.375rem;
+      position: absolute;
+        top: 50%;
+        right: 0;
+      vertical-align: baseline;
+    }
+
+    ul.links {
+      display: inline-block;
+
+      li {
+        display: inline-block;
+        margin-right: 3.625rem; // 58px over 16
+      }
+
+      a {
+        // color: $charcoal;
+        display: inline-block;
+        padding: {
+          top: .5em;
+          bottom: .5em;
+        }
+        text-decoration: none;
+
+        &.here {
+          // color: $accentHover;
+        }
+
+        &:hover {
+          // color: $accentHover;
+        }
+      }
+
+      li.active a {
+        // color: $accent;
+      }
+    }
+  }
+}
+
+.standard-top-padding {
+    padding-top: 15%;
+  }
