@@ -7,8 +7,8 @@ $white: #ffffff;
 // unused grey: #9fa9a3
 
 body {
-  background-color: $white;
-  color: $logoGrey;
+  background-color: $lightGrey;
+  color: $mediumGrey;
 }
 
 svg {
@@ -30,14 +30,19 @@ svg {
 .main-header {
 
   div.header-wrap {
-    background-color: $lightGrey;
+    background-color: $mediumGrey;
   }
 }
 
 a {
-  color: $darkGrey;
+  color: $logoBlue;
 
   &:hover {
-    color: $logoBlue;
+    color: $darkGrey;
+    font-weight: 700;
   }
+}
+
+h1 {
+  color: $darkGrey;
 }
