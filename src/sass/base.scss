@@ -32,23 +32,11 @@ ul.links {
 
   a {
     display: inline-block;
-    // padding: {
-    //   top: .5em;
-    //   bottom: .5em;
-    // }
-
-    // &.here {
-    //   color: $accentHover;
-    // }
-
-    // &:hover {
-    //   color: $accentHover;
-    // }
   }
 }
 
 .main-header {
-  padding-bottom: 14.5916667%; // 140px over 1920px
+  padding-bottom: 15.75%;
   position: fixed;
     top: 0;
     right: 0;
@@ -69,12 +57,12 @@ ul.links {
       width: 10.5%;
       display: block;
       margin: auto;
-      padding-top: 1%;
+      padding-top: 1.5%;
   }
 
   div.links {
     display: block;
-    padding-top: .025rem;
+    padding-top: .3rem;
 
     ul {
 
@@ -84,8 +72,7 @@ ul.links {
           margin-right: 3.625rem; // 58px over 16
 
           a.active {
-            color: $darkGrey;
-            font-weight: 700;
+            font-weight: 600;
           }
           &:last-child {
             margin-right: 0;
@@ -93,70 +80,29 @@ ul.links {
         }
       }
     }
-
-  //   div.actions {
-  //   position: absolute;
-  //     top: 5%;
-  //     right: 5.4166667%;
-  //     left: 25.8333333%;
-  //     bottom: 0;
-  //
-  //   .contents {
-  //     margin-top: -3.375rem;
-  //     position: absolute;
-  //       top: 50%;
-  //       right: 0;
-  //     vertical-align: baseline;
-  //   }
-  //
-  //   ul.links {
-  //     display: inline-block;
-  //
-  //     li {
-  //       display: inline-block;
-  //       margin-right: 3.625rem; // 58px over 16
-  //     }
-  //
-  //     a {
-  //       // color: $charcoal;
-  //       display: inline-block;
-  //       padding: {
-  //         top: .5em;
-  //         bottom: .5em;
-  //       }
-  //       text-decoration: none;
-  //
-  //       &.here {
-  //         // color: $accentHover;
-  //       }
-  //
-  //       &:hover {
-  //         // color: $accentHover;
-  //       }
-  //     }
-  //
-  //     li.active a {
-  //       // color: $accent;
-  //     }
-  //   }
-  // }
 }
 
 .standard-top-padding {
-    padding-top: 15%;
+    padding-top: 15.75%;
 }
 
 ul {
-  li.realgm-thumb {
-    background-color: $white;
-    height: 6rem;
+
+  &.realgm-links {
+    li {
+      padding-bottom: .5rem;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
   }
 
-  li.jet-thumb {
-    background-color: $white;
-    margin: auto;
-    max-width: 66%;
-  }
+  // li.jet-thumb {
+  //   background-color: $white;
+  //   margin: auto;
+  //   max-width: 66%;
+  // }
 }
 
 

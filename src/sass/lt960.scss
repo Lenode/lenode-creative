@@ -1,9 +1,15 @@
 @media all and (max-width: 960px) {
 
-  ul {
-    li.realgm-thumb {
-      height: 5rem;
-    }
+  .main-header {
+    padding-bottom: 17%;
+
+    // div.header-wrap {
+    //   background-color: red;
+    // }
+  }
+
+  .standard-top-padding {
+      padding-top: 17%;
   }
 
 }
