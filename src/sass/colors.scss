@@ -1,16 +1,22 @@
 $logoGrey: #666666;
 $logoBlue: #89b8d4;
 $darkGrey: #4b4a4a;
-$lightGrey: #888686;
+$mediumGrey: #888686;
+$lightGrey: #f0f0f0;
 $white: #ffffff;
+// unused grey: #9fa9a3
 
 body {
-  background-color: #f0f0f0;
-  color: #9fa9a3;
+  background-color: $white;
+  color: $logoGrey;
 }
 
 svg {
   fill: #E4E4E4;
+}
+
+.white-background {
+  background-color: $white;
 }
 
 .dark-background {
