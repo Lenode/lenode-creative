@@ -1,3 +1,8 @@
+$logoGrey: #666666;
+$logoBlue: #89b8d4;
+$darkGrey: #4b4a4a;
+$lightGrey: #888686;
+
 body {
   background-color: #f0f0f0;
   color: #9fa9a3;
@@ -15,10 +20,17 @@ svg {
   background-color: #434C4D;
 }
 
+.main-header {
+
+  div.header-wrap {
+    background-color: $lightGrey;
+  }
+}
+
 a {
-  color: #9FA9A3;
+  color: $darkGrey;
 
   &:hover {
-    color: #3B3A30;
+    color: $logoBlue;
   }
 }

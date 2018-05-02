@@ -45,7 +45,7 @@ ul.links {
   z-index: 10;
 
   div.header-wrap {
-    background-color: #618685;
+    // background-color: $darkGrey;
     position: absolute;
       top: 0;
       right: 0;
@@ -133,4 +133,10 @@ ul.links {
 
 .standard-top-padding {
     padding-top: 15%;
+}
+
+ul {
+  li.amazon-thumb {
+    
   }
+}
