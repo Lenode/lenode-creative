@@ -36,7 +36,7 @@ ul.links {
 }
 
 .main-header {
-  padding-bottom: 13.5916667%; // 140px over 1920px
+  padding-bottom: 14.5916667%; // 140px over 1920px
   position: fixed;
     top: 0;
     right: 0;
@@ -55,16 +55,16 @@ ul.links {
   }
 
   div.logo {
-    margin-left: 5.4166667%; // 104px over 1920px
+    margin-left: 4%; // 104px over 1920px
     padding: {
-      top: 2%; // 66px over 1920px
+      top: 3%; // 66px over 1920px
       bottom: 1.3020833%; // 30px over 1920px
     }
     position: absolute;
       top: 0;
       left: 0;
     vertical-align: middle;
-    width: 9%; // 392 over 1920px
+    width: 9%; //
 
     a {
       display: block;
@@ -86,8 +86,8 @@ ul.links {
     div.actions {
     position: absolute;
       top: 5%;
-      right: 5.4166667%; // 104px over 1920px
-      left: 25.8333333%; // 496 over 1920px
+      right: 5.4166667%;
+      left: 25.8333333%;
       bottom: 0;
 
     .contents {
