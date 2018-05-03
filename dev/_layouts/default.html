@@ -31,16 +31,17 @@
 </head>
 <body>
   <div id="main-page-wrap">
-    <!-- <div class="content"> -->
-      {% include header.html %}
+    {% include header.html %}
+    <div class="page-content">
       {{ content }}
-    <!-- </div> -->
-    <div class"site-footer">
-      {% include footer.html %}
     </div>
   </div>
-    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="{{ site.baseurl }}includes/fancybox/jquery.fancybox.min.js"></script>
-    <script src="{{ site.baseurl }}js/fancybox.js"></script>
+
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="{{ site.baseurl }}includes/fancybox/jquery.fancybox.min.js"></script>
+  <script src="{{ site.baseurl }}js/fancybox.js"></script>
 </body>
+<div class"site-footer">
+  {% include footer.html %}
+</div>
 </html>

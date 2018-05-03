@@ -1,11 +1,15 @@
 @media all and (max-width: 640px) {
 
   .main-header {
-    padding-bottom: 20%;
+    // padding-bottom: 20%;
 
     // div.header-wrap {
     //   background-color: green;
     // }
+
+    div.logo {
+        width: 10.5%;
+    }
 
     div.links {
       display: block;
@@ -21,10 +25,7 @@
     }
   }
 
-  .standard-top-padding {
+  .page-content {
       padding-top: 20%;
   }
-
-
-
 }

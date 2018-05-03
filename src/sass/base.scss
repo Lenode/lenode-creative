@@ -1,15 +1,58 @@
 html, body {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
-  margin: 0;
-  padding: 0;
+  // margin: 0;
+  // padding: 0;
+  // overflow: auto;
 }
 
 #main-page-wrap {
   box-sizing: border-box;
   min-height: 100%;
   padding-bottom: 100px;
-  position: relative;
+  // padding: 0 0 100px;
+  // position: relative;
+}
+
+.page-content {
+    padding-top: 16%;
+}
+
+.main-header {
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  div.logo {
+      width: 9.5%;
+      display: block;
+      margin: auto;
+      padding-top: 1rem;
+  }
+
+  div.links {
+    display: block;
+    padding-top: .3rem;
+    padding-bottom: .4rem;
+
+    ul {
+
+        li {
+          display: inline-block;
+          text-align: center;
+          margin-right: 3.625rem; // 58px over 16
+
+          a.active {
+            font-weight: 600;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
 }
 
 .site-footer {
@@ -17,6 +60,7 @@ html, body {
   height: 100px;
   left: 0;
   position: absolute;
+  // padding: -100px;
   width: 100%;
 }
 
@@ -57,57 +101,6 @@ ul.links {
   a {
     display: inline-block;
   }
-}
-
-.main-header {
-  padding-bottom: 15.75%;
-  position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  transform: translateZ(0);
-  z-index: 10;
-
-  div.header-wrap {
-    position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    z-index: 10;
-  }
-
-  div.logo {
-      width: 10.5%;
-      display: block;
-      margin: auto;
-      padding-top: 1.5%;
-  }
-
-  div.links {
-    display: block;
-    padding-top: .3rem;
-
-    ul {
-
-        li {
-          display: inline-block;
-          text-align: center;
-          margin-right: 3.625rem; // 58px over 16
-
-          a.active {
-            font-weight: 600;
-          }
-          &:last-child {
-            margin-right: 0;
-          }
-        }
-      }
-    }
-}
-
-.standard-top-padding {
-    padding-top: 15.75%;
 }
 
 ul {
