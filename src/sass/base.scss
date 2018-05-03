@@ -45,6 +45,12 @@ img {
       border-style: solid;
       border-width: 1px;
       border-color: $mediumGrey;
+
+      &.houzz {
+        // display: block;
+        // max-width: 90%;
+        // margin: auto;
+      }
     }
 }
 
