@@ -44,10 +44,10 @@ svg {
 }
 
 a {
-  color: $logoBlue;
+  color: $hoverBlue;
 
   &:hover {
-    color: $hoverBlue;
+    color: $activeBlue;
   }
 }
 
@@ -59,8 +59,14 @@ h1 {
   div.links {
     ul {
       li {
+        a {
+          color: $logoBlue;
+          &:hover {
+            color: $activeBlue;
+          }
+        }
         a.active {
-            color: $activeNav;
+            color: $activeBlue;
         }
       }
     }
