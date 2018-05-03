@@ -30,8 +30,16 @@
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}includes/fancybox/jquery.fancybox.min.css">
 </head>
 <body>
-    {% include header.html %}
-    {{ content }}
+  <div id="wrap">
+    <div id="content">
+      {% include header.html %}
+      {{ content }}
+    </div>
+    <div id="footer">
+      {% include footer.html %}
+    </div>
+  </div>
+
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="{{ site.baseurl }}includes/fancybox/jquery.fancybox.min.js"></script>
     <script src="{{ site.baseurl }}js/fancybox.js"></script>
